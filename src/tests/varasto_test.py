@@ -4,6 +4,7 @@ from varasto import Varasto
 
 class TestVarasto(unittest.TestCase):
     def setUp(self):
+        fail
         self.varasto = Varasto(10)
         self.negative = Varasto(-1, -1)
         self.wrong = Varasto(10, 20)
